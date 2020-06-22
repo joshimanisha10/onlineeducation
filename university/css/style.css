@@ -1547,6 +1547,7 @@ p a.new{
 
 .section-heading .heading {
   font-size: 45px;
+  color:red !important;
 }
 
 .block-22 {
