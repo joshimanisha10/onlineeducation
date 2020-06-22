@@ -1,5 +1,5 @@
-fbody {
-  background: #fff;
+body {
+  background: blue;
   font-family: "Rubik", arial, sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -48,13 +48,14 @@ header .navbar-collapse {
 header .navbar {
   padding-top: 0;
   padding-bottom: 0;
-  background: #fff !important;
+  background: #0000FF!important;
 }
 
 @media (max-width: 991.98px) {
   header .navbar {
     padding-top: .5rem;
     padding-bottom: .5rem;
+	background-color:#0000FF;
   }
 }
 
@@ -75,7 +76,7 @@ header .navbar .nav-link {
   font-size: 15px;
   outline: none !important;
   opacity: 1 !important;
-  color: #000 !important;
+  color:#fff	 !important;
 }
 
 @media (max-width: 991.98px) {
@@ -147,6 +148,10 @@ header .navbar.navbar-light .nav-link {
 header .navbar.navbar-light .nav-link.active {
   color: #fff;
 }
+header .nav-link:hover{
+	background-color:#EB1436;
+	
+}
 
 .bcrumb a:hover {
   color: #fff;
@@ -156,7 +161,7 @@ header .navbar.navbar-light .nav-link.active {
 .site-hero {
   background-size: cover;
   background-position: center center;
-  min-height: 750px;
+  min-height: 600px;
   height: 100vh;
 }
 
@@ -1502,7 +1507,7 @@ blockquote p {
 }
 
 .block-22 {
-  background: #11cbd7;
+  background:0000ff;
 }
 
 .block-22 .heading {
