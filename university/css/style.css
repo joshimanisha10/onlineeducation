@@ -1,10 +1,11 @@
-fbody {
+body {
   background: #fff;
   font-family: "Rubik", arial, sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 2;
   color: gray;
+ overflow-x: hidden;
 }
 
 a {
@@ -147,8 +148,10 @@ header .navbar.navbar-light .nav-link {
 header .navbar.navbar-light .nav-link.active {
   color: #fff;
 }
+header .nav-link:hover{
+	background-color:#F40007;
 
-
+}
 .bcrumb a:hover {
   color: #fff;
   text-decoration: underline;
@@ -194,7 +197,7 @@ header .navbar.navbar-light .nav-link.active {
 .site-hero .btn {
   -webkit-box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.2) !important;
   box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.2) !important;
-  background: #11cbd7 !important;
+  background: #f40007!important;
   border: 2px solid transparent !important;
   color: #fff;
 }
@@ -204,7 +207,7 @@ header .navbar.navbar-light .nav-link.active {
   box-shadow: none !important;
   background: none !important;
   color: #fff;
-  border: 2px solid #fff !important;
+  border: 2px solid #f40007 !important;
 }
 
 .site-hero.overlay {
@@ -224,13 +227,19 @@ header .navbar.navbar-light .nav-link.active {
 }
 
 .site-hero .site-hero-inner {
-  min-height: 750px;
+  min-height: 700px;
   height: 100vh;
 }
 
 .site-hero.site-sm-hero {
   min-height: 550px;
   height: 50vh;
+}
+
+.site-hero1.site-sm-hero {
+  min-height: 100px;
+  height: 40vh;
+  
 }
 
 .site-hero .site-hero-sm-inner {
@@ -1099,7 +1108,28 @@ blockquote p {
 .element-animate {
   opacity: 0;
   visibility: hidden;
+  color:black;
 }
+
+.element-animate h1{
+  margin-top:50px;
+  color:black;
+}
+
+@media (max-width: 991.98px) {
+ .element-animate {
+  opacity: 0;
+  visibility: hidden;
+  color:black;
+}
+
+.element-animate h1{
+  margin-top:5px;
+  color:black;
+  font-size:30px;
+}
+}
+
 
 .block-16 figure {
   position: relative;
@@ -1133,6 +1163,13 @@ blockquote p {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+.block-15 .new{
+	background-color:#f40007;
+}
+
+.block-15 .new:hover{
+	border:1px solid #f40007 !important;
+}
 
 .block-15 .heading {
   max-width: 400px;
@@ -1143,7 +1180,7 @@ blockquote p {
   font-size: 45px;
   margin: 0;
   padding: 0;
-  color: #11cbd7;
+  color: #f40007;
 }
 
 .block-15 .text {
@@ -1273,7 +1310,14 @@ blockquote p {
 .block-17 form .search-submit {
   width: 100px;
   margin-left: 20px;
+  background-color:#F40007 !important;
+  
 }
+
+.block-17 form .search-submit:hover {
+  border: 1px solid #F40007 !important;
+ 
+  }
 
 @media (max-width: 991.98px) {
   .block-17 form .search-submit {
@@ -1283,6 +1327,9 @@ blockquote p {
   }
 }
 
+p a.new{
+	background-color:#F40007 !important;
+}
 .block-18 .icon > span {
   font-size: 50px;
 }
