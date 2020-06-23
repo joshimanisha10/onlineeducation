@@ -315,6 +315,11 @@ header .nav-link:hover{
 }
 
 .site-section {
+ padding:5em 0em;
+ 
+}
+
+.site-sectionn {
   padding-top: 15em;
   padding-bottom:5em;
   padding-left:0em;
