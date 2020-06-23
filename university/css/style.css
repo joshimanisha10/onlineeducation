@@ -1,7 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+
 body {
   background: #fff;
-  font-family: "Rubik", arial, sans-serif;
-  font-weight: 300;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 600;
   font-size: 16px;
   line-height: 2;
   color: gray;
@@ -21,8 +25,8 @@ a:hover {
 
 h1, h2, h3, h4, h5 {
   color: #000;
-  font-family: "Rubik", arial, sans-serif;
-  font-weight: 300;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
 header {
@@ -38,7 +42,7 @@ header {
 header .navbar-brand {
   text-transform: uppercase;
   letter-spacing: .2em;
-  font-weight: 400;
+  font-weight: 300;
   color: #000 !important;
 }
 
@@ -1095,8 +1099,13 @@ blockquote p {
 
 .headd {
 	color:#11CBD7;
+	font-size:17px;
 }
-
+.headnd
+ {
+	color:#11CBD7;
+	font-size:15px;
+}
 .site-footer.border-top {
   border-top: 1px solid #e6e6e6 !important;
 }
@@ -1473,7 +1482,7 @@ p a.new{
 
 .block-21 .text .meta > div {
   display: inline-block;
-  font-size: 13px;
+  font-size: 12px;
   margin-right: 10px;
 }
 
