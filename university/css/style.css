@@ -2221,3 +2221,10 @@ p a.new{
     stroke-dashoffset: -136px;
   }
 }
+
+.site-sectionn .card{
+  -webkit-box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.2) !important;
+}
+
+
