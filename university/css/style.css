@@ -2227,4 +2227,31 @@ p a.new{
   box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.2) !important;
 }
 
+.new{
+    position: relative;
+    margin-top: -40px;
+    z-index: 2;
+    padding: 50px;
+    background: #fff !important;
+    -webkit-box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.2);
+   
+  }
+  
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .new1 {
+    margin-top:60px;
+  }
+}
 
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .new2 {
+    margin-top:-100px;
+  }
+}
+
+.new4{
+  margin-top: -100px;
+}
