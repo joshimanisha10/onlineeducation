@@ -100,18 +100,19 @@
     <!-- END section -->
 
     <div class="site-section bg-light">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           
-          <div class="col-md-6 col-lg-8 order-md-2 pl-lg-5">
-            <div class="row">
+          <div class="col-md-6 col-lg-8 order-md-1 pl-lg-5">
+            <div class="row block-24">
               <div class="col-md-12 col-lg-12 mb-5">
 
                   <h1 class="heading">Lesson 1</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ex mollitia voluptatem magnam soluta, maiores aliquid aliquam consequatur sunt animi.</p>
                    
-                  <iframe width="500" height="315" src="https://www.youtube.com/embed/BAxlHcO-VgY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   
+                  <iframe width="650" height="400" src="https://www.youtube.com/embed/BAxlHcO-VgY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ex mollitia voluptatem magnam soluta, maiores aliquid aliquam consequatur sunt animi.</p>
+                  <p>Lesson 1</p>
                   <div class="pt-5">
                     <p>Categories:  <a href="#">Design</a>, <a href="#">Events</a>  Tags: <a href="#">#course</a>, <a href="#">#trends</a></p>
                   </div>
@@ -162,28 +163,43 @@
                     </ul>
                     <!-- END comment-list -->
                     
-                    <div class="comment-form-wrap pt-5">
-                      <h3 class="mb-5">Leave a comment</h3>
-                      <form action="#" class="bg-light">
-                        <div class="form-group">
-                          <label for="name">Name *</label>
-                          <input type="text" class="form-control" id="name">
+                    <div class="comment-form-wrap p-5">
+                      <h3 class="mb-5">Review</h3>
+                      <form action="#" class="">
+                        <label for="message">Rate this Course</label> <br>
+                        <div class="form-check-inline">
+                          <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio">1
+                          </label>
                         </div>
-                        <div class="form-group">
-                          <label for="email">Email *</label>
-                          <input type="email" class="form-control" id="email">
+                        <div class="form-check-inline">
+                          <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio">2
+                          </label>
                         </div>
+                        <div class="form-check-inline disabled">
+                          <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio"> 3
+                          </label>
+                        </div>
+                        <div class="form-check-inline disabled">
+                          <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio" > 4
+                          </label>
+                        </div>
+                        <div class="form-check-inline disabled">
+                          <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio" > 5
+                          </label>
+                        </div>
+                        <br><br>
                         <div class="form-group">
-                          <label for="website">Website</label>
-                          <input type="url" class="form-control" id="website">
+                          <label for="message">Comment</label>
+                          <textarea name="" id="message" cols="10" rows="5" class="form-control"></textarea>
                         </div>
 
                         <div class="form-group">
-                          <label for="message">Message</label>
-                          <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
-                        </div>
-                        <div class="form-group">
-                          <input type="submit" value="Post Comment" class="btn btn-primary">
+                          <input type="submit" value="Post Your Review" class="btn btn-primary">
                         </div>
 
                       </form>
@@ -196,7 +212,7 @@
             
           </div>
           <!-- END content -->
-          <div class="col-md-6 col-lg-4 order-md-1">
+          <div class="col-md-6 col-lg-4 order-md-2">
 
             <div class="block-24 mb-5">
               <h3 class="heading">Other Lesson</h3>

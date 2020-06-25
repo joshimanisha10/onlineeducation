@@ -252,6 +252,8 @@ header .nav-link:hover{
 .episodes {
   background: #fff;
   padding: 20px;
+  
+ 
 }
 
 .episodes .play {
@@ -2262,7 +2264,7 @@ p a.new{
   margin-top: -100px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   /* For mobile phones: */
   iframe {
    max-width: 350px;
