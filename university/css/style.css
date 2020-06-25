@@ -164,7 +164,7 @@ header .nav-link:hover{
 .site-hero {
   background-size: cover;
   background-position: center center;
-  min-height: 600px;
+  min-height: 650px;
   height: 100vh;
 }
 
@@ -241,10 +241,8 @@ header .nav-link:hover{
 }
 
 .site-hero1.site-sm-hero {
-  min-height: 100px;
-  height: 40vh;
-  
-}
+ height: 100px;
+ }
 
 .site-hero .site-hero-sm-inner {
   min-height: 550px;
@@ -1128,6 +1126,12 @@ blockquote p {
   visibility: hidden;
   color:black;
 }
+
+.element-animate1 h1{
+  margin-top:30px;
+  color:black;
+}
+
 
 .element-animate h1{
   margin-top:70px;
@@ -2062,6 +2066,8 @@ p a.new{
   }
 }
 
+
+
 .block-8 .accordion-item .heading {
   font-size: 16px;
   font-weight: 400;
@@ -2254,4 +2260,12 @@ p a.new{
 
 .new4{
   margin-top: -100px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  iframe {
+   max-width: 350px;
+   height: 300px;
+  }
 }
