@@ -321,6 +321,7 @@ header .nav-link:hover{
 .site-section {
  padding:5em 0em;
  
+ 
 }
 
 .site-sectionn {
@@ -1129,6 +1130,7 @@ blockquote p {
   opacity: 0;
   visibility: hidden;
   color:black;
+ 
 }
 
 .element-animate1 h1{
@@ -1215,6 +1217,7 @@ blockquote p {
 
 .block-6 {
   margin-bottom: 30px;
+
 }
 
 .block-6 .icon {
@@ -1240,6 +1243,8 @@ blockquote p {
   background: #11cbd7;
   z-index: -1;
 }
+
+
 
 .block-6.d-block .icon {
   margin-right: 0;
@@ -1382,6 +1387,10 @@ p a.new{
   transition: .3s all ease;
   z-index: 1;
   background: #fff;
+  height: 500px;
+  overflow: hidden;
+  
+
 }
 
 .block-19:hover, .block-19:focus {
