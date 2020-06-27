@@ -765,7 +765,9 @@ textarea.form-control {
   background-position: center center;
   padding: 7em 0;
 }
-
+.sub-heading {
+  color:#999999;
+}
 .cover_1 .sub-heading {
   color: rgba(255, 255, 255, 0.7);
   font-size: 22px;
