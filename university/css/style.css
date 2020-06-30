@@ -1403,7 +1403,7 @@ p a.new{
 }
 
 .block-19 .text .heading {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 300;
   margin: 0 0 20px 0;
   padding: 0;
@@ -1417,6 +1417,7 @@ p a.new{
   overflow: hidden;
   text-overflow: ellipsis;
   height:120px;
+  font-size: 20px;
 }
 
 .block-19 .text .heading a:hover {
