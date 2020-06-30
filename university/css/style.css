@@ -1,10 +1,9 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
 body {
-  background: #fff;
-  font-family:'Montserrat', sans-serif;
+  background: url(images/body.jpg) !important;
+  font-family: 'Pangolin', cursive;
+
   font-weight: 600;
   font-size: 16px;
   line-height: 2;
@@ -25,7 +24,7 @@ a:hover {
 
 h1, h2, h3, h4, h5 {
   color: #000;
-  font-family:'Montserrat', sans-serif;
+  font-family: 'Pangolin', cursive;
   font-weight: 700;
 }
 
@@ -53,7 +52,7 @@ header .navbar-collapse {
 header .navbar {
   padding-top: 0;
   padding-bottom: 0;
-  background: #fff !important;
+  
 }
 
 @media (max-width: 991.98px) {
@@ -1412,6 +1411,12 @@ p a.new{
 
 .block-19 .text .heading a {
   color: #000;
+}
+.block-19 .text p {
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height:120px;
 }
 
 .block-19 .text .heading a:hover {
