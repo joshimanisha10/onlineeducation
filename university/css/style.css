@@ -251,7 +251,8 @@ header .nav-link:hover{
 
 .episodes {
   background: #fff;
-  padding: 20px;
+  padding: 0px;
+ 
   
  
 }
@@ -261,7 +262,7 @@ header .nav-link:hover{
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: #11cbd7;
+  background:#d3455b;
   border-radius: 50%;
 }
 
@@ -308,7 +309,7 @@ header .nav-link:hover{
   text-transform: uppercase;
   line-height: 74px;
   border-radius: 50%;
-  background: #11cbd7;
+  background: #d3455b;
   color: #fff;
   font-size: 30px;
 }
@@ -325,6 +326,11 @@ header .nav-link:hover{
 
 .site-section1 {
   padding:1em 0em;
+ 
+ }
+
+ .site-section1 {
+  padding:2em 0em;
  
  }
 
