@@ -697,10 +697,10 @@ textarea.form-control {
 }
 
 .box.hover:hover .box-body, .box.hover:focus .box-body {
-  background: #11cbd7;
+  background: #D3455B;
   color: #fff;
   padding: 30px 20px;
-  border-color: #11cbd7;
+  border-color:#d3455b;
 }
 
 .box.hover:hover h2, .box.hover:focus h2 {
@@ -844,7 +844,7 @@ textarea.form-control {
   -ms-transform: scale(1.05);
   transform: scale(1.05);
   z-index: 2;
-  border-bottom: 10px solid #11cbd7;
+  border-bottom: 10px solid #d3455b;
 }
 
 .media-custom {
@@ -1916,7 +1916,7 @@ p a.new{
 
 .block-24 ul li a:hover, .block-24 ul li a:focus {
   color:black;
-  border-left: 4px solid #11cbd7;
+  border-left: 4px solid #d3455b;
 }
 
 .block-25 {
@@ -2006,7 +2006,7 @@ p a.new{
   padding: 0 10px;
   border-radius: 4px;
   display: inline-block;
-  background: #11cbd7;
+  background: #d3455b;
 }
 
 .block-27 ul, .block-27 ul li {
