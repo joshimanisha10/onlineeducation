@@ -2039,6 +2039,13 @@ p a.new{
   box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.2);
 }
 
+.block-282 {
+  margin: 0;
+  background: #fff;
+  -webkit-box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.2);
+}
+
 .block-28 figure {
   width: 100px;
   margin: 0 auto 30px auto;
