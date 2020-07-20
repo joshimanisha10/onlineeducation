@@ -164,8 +164,8 @@ header .nav-link:hover{
 .site-hero {
   background-size: cover;
   background-position: center center;
-  min-height: 650px;
-  height: 100vh;
+  min-height: 150px;
+  height: 10vh;
 }
 
 .site-hero h1, .site-hero p {
@@ -181,6 +181,11 @@ header .nav-link:hover{
 }
 
 @media (max-width: 991.98px) {
+.site-hero{
+    min-height: 150px;
+    height: 10vh;
+}
+
   .site-hero h1 {
     font-size: 40px;
   }
@@ -231,8 +236,14 @@ header .nav-link:hover{
 }
 
 .site-hero .site-hero-inner {
-  min-height: 700px;
-  height: 100vh;
+  min-height: 100px;
+  height: 10vh;
+
+}
+@media (min-width: 576px){
+  .site-hero .site-hero-inner {
+    margin-bottom: 500px;
+  }
 }
 
 .site-hero.site-sm-hero {
@@ -1183,6 +1194,7 @@ blockquote p {
   opacity: 0;
   visibility: hidden;
   color:black;
+ 
 }
 
 .element-animate h1{
@@ -1298,6 +1310,7 @@ blockquote p {
 .block-17 .heading {
   font-size: 40px;
   color:#fff;
+  
 }
 
 .block-17 form {
@@ -1315,6 +1328,7 @@ blockquote p {
 @media (max-width: 991.98px) {
   .block-17 form .fields {
     width: 100%;
+  
   }
 }
 
