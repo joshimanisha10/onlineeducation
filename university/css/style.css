@@ -335,15 +335,32 @@ header .nav-link:hover{
 
 }
 
-.site-section1 {
-  padding:1em 0em;
- 
- }
+@media (min-width: 1440px) {
+  .site-section1 {
+   
+    padding:2em 0em !important;
+   }
+  }
 
- .site-section1 {
-  padding:2em 0em;
- 
- }
+  @media (min-width: 1024px) {
+    .site-section1 {
+     
+      padding:2em 0em !important;
+     }
+    }
+ @media (min-width: 576px) {
+  .site-section1 {
+   
+    padding:10em 0em;
+   }
+  }
+
+  @media (min-width: 320px) {
+    .site-section1 {
+     
+      padding:10em 0em;
+     }
+    }
 
 input .newww{
   background-color: #d3455b !important;
